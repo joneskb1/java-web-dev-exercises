@@ -7,6 +7,6 @@ public class Area {
         System.out.println("enter a radius");
         double radius = input.nextDouble();
         double area = Circle.getArea(radius);
-        System.out.println(area);
+        System.out.println(area + " is the area");
     }
 }
