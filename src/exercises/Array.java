@@ -11,8 +11,10 @@ public class Array {
         int[] myArray = {1, 1, 2, 3, 5, 8};
         printArray(myArray);
         printOdd(myArray);
+
         String rhyme = "I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse.";
         printString(rhyme);
+
         ArrayList<Integer> myList = new ArrayList<>();
         myList.add(41);
         myList.add(12);
@@ -25,6 +27,14 @@ public class Array {
         myList.add(34);
         myList.add(77);
         System.out.println(addSum(myList));
+
+        ArrayList<String> myString1 = new ArrayList<>();
+        myString1.add("kayla");
+        myString1.add("brooke");
+        myString1.add("jones");
+        printFive(myString1);
+
+
 
         ArrayList<String> myString = new ArrayList<>();
         Scanner input = new Scanner(System.in);
